@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BRIAN MASEMBE</title>
+    <link rel="stylesheet" href="style.css">
+    <script> src="https://kit.fontawesome.com/c4254eaB.js"</script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                
+                <div class="logo">
+                    <img src="../gallery/ry.webp" alt="logo" class="lg">
+                </div>
+                <ul id="sidemenu">
+                    <li><a href="#header">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#gallery">GALLERY</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                    <i class="fas fa-times"></i>" onclick="closemeu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>BIO</p>
+                <H1>Hi, i'm <span>BRIAN</span><br> A student at Bugema university</H1>
+            </div>
+        </div>
+    </div>
+
+<!----------about--------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="../gallery/box.jpg">
+                </div>
+                <div class="about-col2">
+                    <H1 class="sub-title">ABOUT ME</H1>
+                   <p>Am a Ugandan aged 24. am a student of bugema university.
+                    Am the first born of 6 children. 
+                    Am offering a diploma in computer forensics.
+                    Am passionate about school and technology. my hobbies are sleeping, eating, going out, playing games.
+                    I chose to offer computer forensics because it has always been my passion going after cyber criminals.
+                    I got to know about Bugema university from a friend of mine.
+                   </p>
+                   <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links active-link" onclick="opentab('hobbies')">hobbies</p>
+                    <p class="tab-links active-link" onclick="opentab('education')">education</p>
+                   </div>
+                   <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>BASKETBALL</span><br>playing basketball</li>
+                        <li><span>CHESS</span><br>playing chess</li>
+                        <li><span>GAMES</span><br>playing video games</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="hobbies">
+                    <ul>
+                        <li><span>SWIMMING</span><br>I do swimming almost all the time.</li>
+                        <li><span>SINGING</span><br>I sing to myself in the mirror.</li>
+                        <li><span>SLEEPING</span><br>Am good at sleeping at anytime.</li>
+                    </ul>
+                   </div>
+                   <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019-current</span><br>computer forensics at bugema university</li>
+                        <li><span>2017-2018</span><br>A'LEVEL at BASS</li>
+                        <li><span>2013-2016</span><br>O'LEVEL at Kings college budo</li>
+                    </ul>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-----portfolio----->
+<div id="portfolio">
+    <div class="container">
+        <H1 class="sub-title">MY PORTFOLIO</H1>
+        <div class="portfolio-list">
+            <i class="fas fa-code"></i>
+            <div>
+                <h2>web design</h2>
+                <p>am good at designing different webpages.</p>
+                <a href="#">LEARN MORE</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>cyber forensics</h2>
+                <p>am well vast with the different ways one can use to have a secure interaction with a computer.</p>
+                <a href="#">LEARN MORE</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-------gallery------>
+<div id="gallery">
+    <div class="container">
+        <h1 class="sub-title">GALLERY</h1>
+        <P>Have a look at my gallery</P>
+        <div class="gallery-list">
+            <div class="gallery">
+                <img src="../gallery/20220903_105530.jpg">
+                <div class="layer">
+                    <h3>paintball</h3>
+                    <p>this is some great game for team building</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="gallery">
+                <img src="../gallery/FB_IMG_16316851284118939.jpg">
+                <div class="layer">
+                    <h3>free time</h3>
+                    <p>always take some time off just for yourselfs</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="gallery">
+            <img src="../gallery/20220903_105556.jpg">
+            <div class="layer">
+                <h3>quad bikes</h3>
+                <p>the joy of directing Your ride is always guarateed</p>
+                <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!-----------contact-------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">CONTACT ME</h1>
+                <p><i class="fas fa-paper-plane"></i> email:masembebrian69@gmail.com</p>
+                <p>+256704915513</p>
+                <div class="social-icons">
+                   <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                   <a href=""><i class="fab fa-twitter-square"></i></a>
+                   <a href=""><i class="fab fa-instagram"></i></a>
+                   <a href=""><i class="fab fa-linkedin"></i></a> 
+                </div>
+                <a href="../gallery/box.jpg" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright reserved by BRIAN MASEMBE</p>
+    </div>
+</div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classlist.remove("active-link");ss
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classlist.remove("active-tab");
+            }
+            event.currentTarget.classlist.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+
+        }
+        function closemenu(){
+            sidemenu.style.right = "200px";
+
+        }
+    </script>
+</body>
